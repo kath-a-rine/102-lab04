@@ -32,7 +32,7 @@ section h2 {
     border-radius: 10px;
 }
 
-section img, article {
+li {
     display: inline-block;
 }
 
@@ -44,7 +44,7 @@ section img {
     border-color: #99A154;
 }
 
-article {
+section p {
     align: right;
     border: solid;
     border-color: #EDA49F;
