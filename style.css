@@ -13,9 +13,11 @@ header {
 header h1 {
     padding-bottom: 5px;
 }
+
 header h6 {
     text-align: center;
 }
+
 header nav li {
     display: inline-block;
     padding-inline: 10px;
@@ -33,6 +35,7 @@ section h2 {
 section img, article {
     display: inline-block;
 }
+
 section img {
     height: 150px;
     padding-left: 0;
@@ -47,7 +50,6 @@ article {
     border-color: #EDA49F;
     border-width: 5px;
     text-align: center;
-
 }
 footer {
     background-color:#87baed;
@@ -55,5 +57,4 @@ footer {
     height: 60px;
     padding-left: 10px;
     padding-top: 15px;
-
 }
