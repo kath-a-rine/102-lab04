@@ -26,7 +26,20 @@
     </header>
     <br>
     <main>
+        <ul>
+            <script>
+                let show = prompt("What is your favorite show?");
+                let watch = prompt("What service do you watch " + show +  " on?");
+                let pay = prompt("Do you pay for " + watch + " ?")
+                if( pay === "yes") {
+                    document.write("<li>That's great! I hope you enjoy " + show + " and it is stays on " + watch + " forever!</li>");
+                } else {
+                    document.write("<li>That's great! Although you really should start paying for " + watch + " . You don't want to get locked out of the account. Then you'll never be able to watch " + show + " again.</li>");
+                }
+               
+            </script>
 
+        </ul>
        <section>
             <h2>The Sopranos</h2>
            <ul>
@@ -47,7 +60,7 @@
                     <img src="http://placeimg.com/640/360/any">
                  </li>
                 <li>
-                     <p>
+                    <p>
                     A newer sketch comedy show from former Saturday Night Live writer, <a href="https://en.wikipedia.org/wiki/Tim_Robinson_(comedian)">Tim Robinson</a>. While it may not be on any best of lists yet, Robinson is ushering in a new era of sketch comedy.
                     </p>
                 </li>
