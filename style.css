@@ -32,7 +32,16 @@ section h2 {
     border-radius: 10px;
 }
 
-li {
+div {
+    background-color:#EDA49F;
+    text-align: center;
+    list-style-type: none;
+    margin: 30px;
+    height: 100px;
+    padding-top: 40px;
+}
+
+section {
     display: inline-block;
 }
 
