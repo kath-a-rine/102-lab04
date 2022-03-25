@@ -20,7 +20,8 @@ header h6 {
 
 header nav li {
     display: inline-block;
-    padding-inline: 10px;
+    padding: 15px;
+    font-style: strong;
 }
 
 section h2 {
@@ -35,10 +36,17 @@ section h2 {
 div {
     background-color:#EDA49F;
     text-align: center;
-    list-style-type: none;
     margin: 30px;
     height: 100px;
     padding-top: 40px;
+}
+
+div img {
+    width: 20px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 section {
