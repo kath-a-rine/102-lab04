@@ -24,25 +24,28 @@ header nav li {
     font-style: strong;
 }
 
-section h2 {
+
+div {
+    background-color:#EDA49F;
+    text-align: center;
+    margin: 30px;
+    height: 150px;
+    padding-top: 40px;
+}
+
+div img {
+    width: 60px;
+    padding: 15px;
+}
+
+h2 {
     background-color: #E0ED6F ;
     text-align: left;
     height: 40px;
     padding-left: 20px;
     padding-top: 10px;
     border-radius: 10px;
-}
-
-div {
-    background-color:#EDA49F;
-    text-align: center;
-    margin: 30px;
-    height: 100px;
-    padding-top: 40px;
-}
-
-div img {
-    width: 20px;
+    
 }
 
 ul {
@@ -55,23 +58,24 @@ section {
 
 section img {
     height: 240px;
-    padding-left: 0;
     border: solid;
     border-width: 5px;
     border-color: #99A154;
     vertical-align: middle;
+    float: left;
+    border-spacing: 15px;
 }
 
 section p {
-    display: inline-block;
     vertical-align: middle;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     border: solid;
     border-color: #EDA49F;
     border-width: 5px;
     text-align: center;
-    padding-top: 15px;
+    padding: 45px;
+    float: right;
 }
 
 footer {
